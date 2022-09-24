@@ -1,0 +1,28 @@
+.logo_shadow {
+    margin-top: -76px;
+    font-size: 200px;
+    font-weight: bold;
+    color: #F6E64B;
+    text-shadow: -15px 0px 0px rgba(299,70,152,1);
+}
+.logo_shadow_sm {
+    /* margin-top: -76px; */
+    font-size: 64px;
+    font-weight: bold;
+    color: #F6E64B;
+    text-shadow: -8px 0px 0px rgba(299,70,152,1);
+    padding-left: 4vw;
+}
+
+.landing_btn {
+    height: 20vw;
+    width: 20vw;
+}
+
+.landing-bg {
+    height: 75vh;
+    background-image: url("../assets/sample-bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
