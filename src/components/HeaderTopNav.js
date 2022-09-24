@@ -81,17 +81,6 @@ function MyListbox() {
   );
 }
 
-const Emoji = (props) => (
-  <span
-    className="emoji"
-    role="img"
-    aria-label={props.label ? props.label : ""}
-    aria-hidden={props.label ? "false" : "true"}
-  >
-    {props.symbol}
-  </span>
-);
-
 function HeaderTopNav() {
   return (
     <>
@@ -116,22 +105,6 @@ function HeaderTopNav() {
         <div className="col-span-2 bg-slate-100 flex items-center gap-4">
           <MyListbox />
           <Button type="secondary" title="Sign in" size="h4" />
-        </div>
-      </div>
-      <div className=" bg-main-blue relative" style={{ height: "90vh" }}>
-        <h1
-          className="absolute top-48 text-white ml-20"
-          style={{ fontSize: 200 }}
-        >
-          SIGN-UP
-        </h1>
-        <div className="absolute" style={{ top: "28rem", left: "48rem" }}>
-          <h1 className="text-white">
-            <Emoji symbol="👉" />I am a student
-          </h1>
-          <h1 className="text-white">
-            <Emoji symbol="👉" />I am a tutor
-          </h1>
         </div>
       </div>
     </>
